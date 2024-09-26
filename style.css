@@ -12,6 +12,15 @@ body{
     ;
 }
 
+#logo{
+    transition: 1.2s;
+}
+
+#logo:hover{
+    rotate: 320deg;
+    scale: 1.2;
+}
+
 header{
     background-color: red;
     display: flex;
@@ -49,4 +58,34 @@ nav ul a img{
     display: flex;
     align-items: center;
     margin-left: 40%;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffad15;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(15px);
+    scale: 1.05;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit:none ;
+    border-radius: 100%;
 }
