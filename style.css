@@ -39,7 +39,11 @@ nav{
 
 nav ul a{
     margin-right: 5rem;
-    font-size: 2rem
+    font-size: 2rem;
+}
+
+h1{
+    display: flex;
 }
 
 nav ul a img{
@@ -88,4 +92,9 @@ nav ul a img{
     height: 200px;
     object-fit:none ;
     border-radius: 100%;
+}
+
+
+.boton{
+    padding-left: 30%;
 }
